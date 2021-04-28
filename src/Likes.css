@@ -1,0 +1,27 @@
+.likes {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex: 1;
+	padding: 20px;
+	top: 40;
+	/* border: 1px solid gray; */
+}
+
+.likes > img {
+	height: 400px;
+	width: 400px;
+}
+
+.likes__icons {
+	display: flex;
+	justify-content: space-around;
+	border: 1px solid gray;
+	align-items: center;
+}
+
+.likes__thumb {
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+}
